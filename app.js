@@ -13,7 +13,7 @@ let concesionaria = {
   venderAuto: function (patente) {
     let auto = this.buscarAuto(patente)
     if (auto) {
-      auto.vendido = true && false
+      auto.vendido = false
     }
   },
   autosParaLaVenta: function () {
