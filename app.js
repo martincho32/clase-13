@@ -49,6 +49,9 @@ let concesionaria = {
       this.puedeComprar(auto, persona)
     )
   },
+  newMethod: function () {
+    console.log('Hola perro')
+  }
 }
 
 // Primer ejercicio del PG
